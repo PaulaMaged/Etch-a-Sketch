@@ -13,11 +13,16 @@ function chooseSize(squareSideLength)
         for(let j = 0; j < squareSideLength; j++)
         {
             const div = document.createElement('div');
+            div.addEventListener('mouseover', hovered, {once: true})
             row.appendChild(div);
         }
         grid.appendChild(row);
     }
     container.appendChild(grid);
+}
+
+function hovered(e) {
+    this.classList.add('color');
 }
 
 chooseSize(16);

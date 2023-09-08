@@ -55,3 +55,8 @@ button:hover {
     margin: 0;
     padding: 0;
 }
+
+div.color {
+    background-color: black;
+    border: 1px solid black;
+}   
