@@ -1,0 +1,1 @@
+To apply what I learnt about functions, loops, the DOM and events, I created a project where I set up a grid and added eventlisteners and used dom methods to make an etch a sketch game. Enjoy! :D 
